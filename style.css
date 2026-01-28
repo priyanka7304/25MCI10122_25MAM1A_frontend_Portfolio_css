@@ -12,9 +12,6 @@ body {
   padding: 20px;
 }
 
-/* ========================= */
-/* HEADER (Two Column Layout) */
-/* ========================= */
 
 .profile-header {
   display: flex;
@@ -26,7 +23,6 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-/* Left Side (Name + Description) */
 .header-left {
   text-align: left;
 }
@@ -42,7 +38,6 @@ body {
   color: #555;
 }
 
-/* Right Side (Image) */
 .header-right img {
   height: 160px;
   width: 130px;
@@ -51,7 +46,6 @@ body {
   object-fit: cover;
 }
 
-/* Responsive Header */
 @media (max-width: 768px) {
   .profile-header {
     flex-direction: column;
@@ -64,9 +58,7 @@ body {
   }
 }
 
-/* ========================= */
-/* NAVIGATION */
-/* ========================= */
+
 
 nav {
   text-align: center;
@@ -85,9 +77,6 @@ nav a:hover {
   color: #005299;
 }
 
-/* ========================= */
-/* SECTIONS */
-/* ========================= */
 
 section {
   background: white;
@@ -104,9 +93,6 @@ section h3 {
   color: #2c3e50;
 }
 
-/* ========================= */
-/* PROJECT ARTICLES */
-/* ========================= */
 
 article {
   margin-bottom: 15px;
@@ -125,9 +111,6 @@ article p {
   color: #444;
 }
 
-/* ========================= */
-/* SKILLS LIST */
-/* ========================= */
 
 ul {
   padding-left: 20px;
@@ -138,9 +121,6 @@ ul li {
   font-size: 15px;
 }
 
-/* ========================= */
-/* EDUCATION TABLE */
-/* ========================= */
 
 table {
   width: 100%;
@@ -161,9 +141,6 @@ table td {
   border: 1px solid #ddd;
 }
 
-/* ========================= */
-/* CONTACT FORM */
-/* ========================= */
 
 form {
   margin-top: 10px;
@@ -185,7 +162,6 @@ form select:focus {
   border-color: #0077cc;
 }
 
-/* Submit Button */
 input[type="submit"] {
   background: #0077cc;
   color: white;
@@ -201,9 +177,6 @@ input[type="submit"]:hover {
   background: #005299;
 }
 
-/* ========================= */
-/* HORIZONTAL LINE */
-/* ========================= */
 
 hr {
   margin: 20px 0;
