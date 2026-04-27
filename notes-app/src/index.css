@@ -1,0 +1,37 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #f4f2ee;
+  --surface: #ffffff;
+  --surface-2: #faf9f7;
+  --border: #e8e5de;
+  --border-focus: #b8a99a;
+  --text-1: #2c2825;
+  --text-2: #6e6560;
+  --text-3: #a09890;
+  --accent: #5c6bc0;
+  --accent-hover: #4a59b0;
+  --accent-light: #eef0fb;
+  --update: #2e7d52;
+  --update-hover: #235f3e;
+  --update-light: #eaf4ef;
+  --danger: #c0392b;
+  --danger-hover: #a12e22;
+  --danger-light: #fdf0ef;
+  --edit-color: #5c6bc0;
+  --edit-light: #eef0fb;
+  --shadow-sm: 0 1px 3px rgba(44,40,37,0.06), 0 1px 2px rgba(44,40,37,0.04);
+  --shadow-md: 0 4px 16px rgba(44,40,37,0.08), 0 2px 6px rgba(44,40,37,0.05);
+  --shadow-lg: 0 8px 30px rgba(44,40,37,0.1), 0 4px 10px rgba(44,40,37,0.06);
+  --radius: 14px;
+  --radius-sm: 8px;
+  --radius-pill: 100px;
+}
+
+body {
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text-1);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
